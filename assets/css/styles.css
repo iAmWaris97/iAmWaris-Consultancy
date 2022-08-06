@@ -102,8 +102,8 @@ header {
 .times {
   color: var(--orange);
   font-size: 25px;
-  margin-top: 40px;
-  margin-left: 2%;
+  margin-top: 30px;
+  margin-left: 5%;
 }
 
 .nav-list {
