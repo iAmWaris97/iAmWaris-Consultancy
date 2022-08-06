@@ -52,6 +52,15 @@ header {
   display: none;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  min-width: 100%;
+  z-index: 2;
+}
+
 .lower-navbar .container {
   display: flex;
 }
@@ -68,9 +77,60 @@ header {
   min-height: 100vh;
 }
 
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  background: var(--black);
+  backdrop-filter: blur(8px);
+  display: block;
+  transition: all 1s ease;
+  z-index: 2;
+}
+
+.active {
+  width: 100%;
+}
+
 .bars {
   color: var(--black);
   font-size: 30px;
+}
+
+.times {
+  color: var(--orange);
+  font-size: 25px;
+  margin-top: 40px;
+  margin-left: 2%;
+}
+
+.nav-list {
+  margin-top: 70px;
+  margin-left: 28px;
+  margin-right: 28px;
+}
+
+.nav-list li {
+  margin-bottom: 20px;
+  padding: 5px 0;
+}
+
+.nav-list li a {
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--orange);
+}
+
+.nav-list li:hover {
+  border-radius: 15px;
+  border-bottom: 3px solid var(--orange);
+}
+
+.active {
+  display: block;
+  transform: initial;
 }
 
 /* intro section starts */
@@ -349,6 +409,10 @@ footer {
     display: none;
   }
 
+  .times {
+    display: none;
+  }
+
   .upper-navbar {
     display: block;
     background-color: var(--black);
@@ -375,6 +439,12 @@ footer {
   .upper-navbar .nav-menu li:last-child,
   .lower-navbar .nav-menu li:last-child {
     padding-right: 0px;
+  }
+
+  .navbar {
+    padding-left: 80px;
+    padding-right: 80px;
+    background: var(--white);
   }
 
   .upper-navbar a {
@@ -414,8 +484,47 @@ footer {
     border-style: dashed;
   }
 
-  .bars {
-    display: none;
+  .nav-list {
+    margin-top: 10px;
+    margin-left: initial;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .nav-list li {
+    margin-top: 5px;
+  }
+
+  .nav-list li a {
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--black);
+    font-weight: 400;
+  }
+
+  .nav-list li:hover {
+    border-bottom: none;
+  }
+
+  .nav-list li:hover a {
+    color: var(--orange);
+  }
+
+  #campaign-link {
+    border: 5px solid var(--orange);
+    padding: 10px 15px;
+  }
+
+  .mobile-menu {
+    position: initial;
+    min-width: initial;
+    height: initial;
+    background: initial;
+    backdrop-filter: initial;
+    mix-blend-mode: initial;
+    transition: initial;
   }
 
   /* Intro section starts */
