@@ -22,10 +22,10 @@ const projectDatas = [
   },
   {
     featuredImage: './assets/img/Waris.jpg',
-    name: 'Pamela Odeh',
-    qualification: 'Product Manager, TIIDELab Initiative',
+    name: 'Haji Shams',
+    qualification: 'CTO, iAmWaris',
     description:
-      'She has involved herself in sponsoring tech fellowships to train young aspiring developers.',
+      'Shams is the CEO, Acts as the CEO and general director of the iAmWaris chain pf companies',
   },
   {
     featuredImage: './assets/img/001.jpg',
@@ -35,11 +35,11 @@ const projectDatas = [
       'Waris is the CEO, Acts as the CEO and general director of the iAmWaris chain pf companies',
   },
   {
-    featuredImage: './assets/img/waris.jpg',
-    name: 'Adeyemi Buhari',
-    qualification: 'Founder, NovuStack',
+    featuredImage: './assets/img/Waris.jpg',
+    name: 'Haji Shams',
+    qualification: 'CTO, iAmWaris',
     description:
-      'Buhari helped introduce innovate for Africa, giving enabling environment to young developer to showcase there skills in engineering technology.',
+      'Shams is the CEO, Acts as the CEO and general director of the iAmWaris chain pf companies',
   },
 ];
 

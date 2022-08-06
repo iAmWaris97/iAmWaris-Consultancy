@@ -278,6 +278,62 @@ header {
   color: var(--orange);
 }
 
+.partners-section {
+  background-color: rgba(21, 20, 20, 0.871);
+  padding: 20px;
+}
+
+.partners-section h2 {
+  text-align: center;
+  color: var(--gray);
+}
+
+.partners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: var(--gray);
+  gap: 20px;
+}
+
+footer p {
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 18px;
+}
+
+.partners p {
+  font-size: 24px;
+  font-family: "COCOGOOSE", sans-serif;
+}
+
+.partner-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.partner-title span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2px;
+  width: 50px;
+  background-color: var(--orange);
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
 /* mobile style end */
 
 /* desktop style start */
