@@ -116,9 +116,8 @@
 }
 
 .footer {
-  background-color: var(--black);
-  margin-top: 50px;
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--black);
 }
 
 @media only screen and (min-width: 768px) {
@@ -146,5 +145,14 @@
     flex-direction: row;
     gap: 50px;
     margin-top: 70px;
+  }
+
+  .partners-section {
+    display: none;
+  }
+
+  .footer {
+    background-color: var(--black);
+    color: var(--white);
   }
 }
