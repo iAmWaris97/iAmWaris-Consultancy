@@ -78,6 +78,8 @@ header {
 
 .active {
   width: 100%;
+  display: block;
+  transform: initial;
 }
 
 .bars {
@@ -112,11 +114,6 @@ header {
 
 .nav-list li a:hover {
   border-bottom: 3px solid var(--orange);
-}
-
-.active {
-  display: block;
-  transform: initial;
 }
 
 /* intro section starts */
@@ -287,6 +284,11 @@ header {
   z-index: -1;
 }
 
+.partners p {
+  font-size: 24px;
+  font-family: "COCOGOOSE", sans-serif;
+}
+
 .speaker img {
   width: 150px;
   height: 150px;
@@ -343,16 +345,6 @@ header {
   gap: 20px;
 }
 
-footer p {
-  font-family: "COCOGOOSE", sans-serif;
-  font-size: 18px;
-}
-
-.partners p {
-  font-size: 24px;
-  font-family: "COCOGOOSE", sans-serif;
-}
-
 .partner-title {
   display: flex;
   justify-content: center;
@@ -399,6 +391,14 @@ footer {
     display: none;
   }
 
+  .nav-list li {
+    margin-top: 5px;
+  }
+
+  .nav-list li:hover {
+    border-bottom: none;
+  }
+
   .upper-navbar {
     display: block;
     background-color: var(--black);
@@ -421,7 +421,7 @@ footer {
   }
 
   .upper-navbar .nav-menu li:last-child {
-    padding-right: 0px;
+    padding-right: 0;
   }
 
   .navbar {
@@ -451,6 +451,13 @@ footer {
     align-items: center;
   }
 
+  .nav-list li a {
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--black);
+    font-weight: 400;
+  }
+
   .nav-link.active a {
     color: var(--orange);
   }
@@ -469,21 +476,6 @@ footer {
     gap: 20px;
     justify-content: flex-end;
     align-items: center;
-  }
-
-  .nav-list li {
-    margin-top: 5px;
-  }
-
-  .nav-list li a {
-    font-size: 15px;
-    line-height: 20px;
-    color: var(--black);
-    font-weight: 400;
-  }
-
-  .nav-list li:hover {
-    border-bottom: none;
   }
 
   .nav-list li:hover a {
@@ -541,6 +533,11 @@ footer {
     color: var(--white);
     padding: 20px 0;
     text-align: center;
+  }
+
+  footer p {
+    font-family: "COCOGOOSE", sans-serif;
+    font-size: 18px;
   }
 
   .activity {
