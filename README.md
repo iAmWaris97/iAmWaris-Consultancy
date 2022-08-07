@@ -17,6 +17,10 @@ In this project I have made an education consultancy website using HTML/CSS + Ja
 
 [Live Demo Link](https://iamwaris97.github.io/iAmWaris-Consultancy/)
 
+## Loom Video talks about the project.
+
+- Explaination of the project on loom [video](https://www.loom.com/share/405e880f4d684c0e81e2dac9f639bf23)
+
 ## Getting Started
 
 >To get a local copy of this project follow the following steps:
